@@ -1,0 +1,147 @@
+ps -ef
+lsblk
+fdisk /dev/sbc
+fdisk /dev/sdc
+sudo fdisk /dev/sdc
+sudo yum install -y yum-utils   device-mapper-persistent-data   lvm2
+sudo yum install docker-ce docker-ce-cli containerd.io
+sudo yum-config-manager     --add-repo     https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install docker-ce docker-ce-cli containerd.io
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo vi /etc/group
+docker ps
+ll
+sudo yum install git htop -y
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+ll
+sudo chmod +x /usr/local/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+docker-compose --version
+git clone https://github.com/ddarling85/docker-elk-clone.git
+selinux
+getenforce
+setstatus
+sestatus
+chcon -R system_u:object_r:admin_home_t:s0 docker-elk-clone/
+sudo mkdir -p /srv/elasticsearch/es01_data
+sudo mkdir -p /srv/elasticsearch/es01_logs
+sudo mkdir -p /srv/elasticsearch/es0[1,2]_logs
+ll /srv/elasticsearch/
+ll /srv/elasticsearch/*s
+ll /srv/elasticsearch/es01_logs/
+sudo mkdir -p /srv/elasticsearch/es02_logs
+sudo mkdir -p /srv/elasticsearch/es02_data
+sudo chown -R 1000:1000 /srv/elasticsearch
+cd docker-elk-clone/
+ll
+ll /srv/elasticsearch/
+id automate
+docker-compose up -d
+docker ps
+sudo chown -R 1000:1000 /srv/elasticsearch
+docker-compose up -d
+docker ps
+docker-compose up -d
+docker ps
+docker logs 35946f7d86a0
+docker ps
+docker logs 35946f7d86a0
+vi kibana/
+sysctl -w vm.max_map_count=262144
+sudo sysctl -w vm.max_map_count=262144
+vi logstash/config/logstash.yml
+vi elasticsearch/config/elasticsearch.yml
+vi .env
+docker system info
+docker volumes ls
+docker volumes list
+docker volume list
+docker-compose down
+docker-compose up -d
+docker ps
+docker events
+docker logs
+docker logs --help
+docker events --help
+df /var/log/
+ll -h /var/log
+docker system info --help
+docker system info
+htop
+sudo yum install htop -y
+sudo yum install -y epel-release
+sudo yum install htop -y
+curl -L -O https://artifacts.elastic.co/downloads/beats/auditbeat/auditbeat-7.2.0-x86_64.rpm
+sudo rpm -vi auditbeat-7.2.0-x86_64.rpm
+curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.2.0-x86_64.rpm
+sudo rpm -vi metricbeat-7.2.0-x86_64.rpm
+curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.2.0-x86_64.rpm
+sudo rpm -vi filebeat-7.2.0-x86_64.rpm
+sudo vi /etc/filebeat/filebeat.yml
+sudo vi /etc/metricbeat/metricbeat.yml
+ll
+ll /usr/local/bin
+ls /etc/au*
+sudo vi auditbeat.yml
+sudo vi /etc/auditbeat/auditbeat.yml
+sudo auditbeat setup
+sudo auditbeat modules list
+sudo auditbeat --help
+sudo auditbeat show
+sudo systemctl enable auditbeat
+sudo systemctl auditbeat start
+sudo systemctl auditbeat.elasitc start
+sudo systemctl start auditbeat
+sudo metricbeat setup
+sudo filebeat setup
+sudo systemctl enable filebeat
+sudo systemctl enable metricbeat
+sudo systemctl start filebeat
+sudo systemctl start metricbeata
+sudo systemctl start metricbeat
+htop
+top
+df -h
+sudo metricbeat modules list
+sudo metricbeat modules enable docker elasticsearch
+sudo metricbeat modules enable kibana logstash
+sudo filebeat modules list
+sudo filebeat modules enable auditd elasticsearch iptables kibana logstash netflow
+sudo systemctl restart metricbeat
+sudo systemctl restart filebeat
+htop
+ps -ef | grep beat
+docker ps
+htop
+auditbeat
+sudo auditbeat --help
+sudo auditbeat show
+sudo auditbeat show auditd-status
+sudo auditbeat enroll
+sudo auditbeat show auditd-rules
+wget https://artifacts.elastic.co/downloads/beats/packetbeat/packetbeat-7.2.0-x86_64.rpm
+sudo yum install -y packet*
+ls /etc/
+sudo vi /etc/packetbeat/packetbeat.yml
+sudo packetbeat --help
+sudo packetbeat setup
+sudo packetbeat devices
+sudo systemctl enable packetbeat
+sudo systemctl start packetbeat
+ll /var/log
+sudo ls -l /var/log/metricbeat/
+sudo ls -l /var/log/filebeat
+sudo ls -l /var/log/auditbeat/
+sudo ls -l /var/log/packetbeat
+ps -ef | grep beat
+htop
+df -h
+ll /var/log/ -h
+ps -ef | grep beat
+ll -h /var/log/filebeat/
+sudo ls -lh /var/log/filebeat/
+ps -ef
+htop
+history
+
