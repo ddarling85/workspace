@@ -17,7 +17,7 @@ sudo systemctl enable docker
 sudo systemctl start docker
 
 ## Add user to Docker group
-sudo usermod -aG docker {$USER}
+sudo usermod -aG docker $USER
 
 ## Download docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
