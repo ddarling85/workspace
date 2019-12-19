@@ -3,6 +3,9 @@
 ## Straight up deletion of resources in a specific resource group
 Get-AzureRmResource -ResourceGroupName containerservices-southcentralus | Where { $_.ResourceId -like "*elk*" } | Remove-AzureRmResource -Force
 
+## View resources created by a specific deployment template
+( Get-AzureRmResourceGroupDeploymentOperation -DeploymentName {deploymentTemplateName} -ResourceGroupName {resourcesGroupName} )
+
 ##  Deletion of resources created by a specific deployment template
 ( Get-AzureRmResourceGroupDeploymentOperation -DeploymentName CreateVm-OpenLogic.CentOS-7.7-20191025110126 -ResourceGroupName containerservices-southcentralus ) | ForEach-Object -Process { Remove-AzureRmResource -ResourceId  $_.Properties.TargetResource.Id }
 
