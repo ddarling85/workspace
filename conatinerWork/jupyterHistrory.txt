@@ -1,0 +1,58 @@
+uname pa
+uname -a
+    3  python -V
+    4  pip install pandas keras
+    5  apt install python3 python3-pip
+    6  pip3 install pandas keras
+    7  reboot
+    8  python -V
+    9  python3 -V
+   10  echo "?token=51c658e4fdf2e64632977bccd29da97b70f8ee927f34babe" token.txt
+   11  echo "?token=51c658e4fdf2e64632977bccd29da97b70f8ee927f34babe" > token.txt
+   12  ll
+   13  jupyter notebook list
+   14  pip3 install pandas_datareader
+   15  pip3 intall sklearn
+   16  pip3 install sklearn
+   17  pip3 install keras
+   18  pip install matplotlib math
+   19  pip3 install matplotlib math
+   20  pip3 install pyplot math
+   21  pip3 install  math
+   22  pip3 install matplotlib
+   23  pip3 install sequential
+   24  pip3 install tensorflow
+   25  htop
+   26  top
+   27  pip3 install tensorflow_docs
+   28  pip3 list
+   29  pip3
+   30  pip3 search tensorflow
+   31  pip list
+   32  pip install git+https://github.com/tensorflow/docs
+   33  pip install git+https://github.com/tensorflow/docs.git
+   34  ll
+   35  cd
+   36  ll
+   37  git clone https://github.com/tensorflow/docs.git
+   38  apt install git
+   39  git
+   40  pip3 install seaborn
+   41  cd /
+   42  ll
+   43  cd
+   44  ll
+   45  cd /tf
+   46  ll
+   47  cd
+   48  ll
+   49  git clone https://github.com/tensorflow/docs.git
+   50  df -h
+   51  ll
+   52  cd docs
+   53  ll
+   54  pip install .
+   55  pip3 install .
+   56  cd
+   57  apt update
+   58  apt upgrade
