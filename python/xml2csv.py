@@ -2,13 +2,13 @@ import xml.etree.ElementTree as ET
 import csv
 import logging
 
-tree = ET.parse('python\\resident.xml')
+tree = ET.parse('xml2csv\\resident.xml')
 root = tree.getroot()
-logging.basicConfig(filename='python\\resident.xml',level=logging.DEBUG)
+logging.basicConfig(filename='xml2csv\\resident.xml',level=logging.DEBUG)
 
 # open a file for writing
 
-Resident_data = open('python\ResidentData.csv', 'w')
+Resident_data = open('xml2csv\ResidentData.csv', 'w')
 
 # create the csv writer object
 
