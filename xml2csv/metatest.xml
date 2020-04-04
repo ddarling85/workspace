@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://sunflowerprd.eas.commerce.gov">
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<md:KeyDescriptor use="signing">
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGuDCCBaCgAwIBAgIQB6h6vfEVmXGIcpV0SJWRDTANBgkqhkiG9w0BAQsFADBcMQswCQYDVQQG
+EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMRsw
+GQYDVQQDExJUaGF3dGUgUlNBIENBIDIwMTgwHhcNMTkwNzAzMDAwMDAwWhcNMjEwNzAyMTIwMDAw
+WjCBqzELMAkGA1UEBhMCVVMxETAPBgNVBAgTCE9rbGFob21hMRYwFAYDVQQHEw1Pa2xhaG9tYSBD
+aXR5MSgwJgYDVQQKEx9GZWRlcmFsIEF2aWF0aW9uIEFkbWluaXN0cmF0aW9uMR8wHQYDVQQLExZE
+ZXBhcnRtZW50IG9mIENvbW1lcmNlMSYwJAYDVQQDEx1zdW5mbG93ZXJwcmQuZWFzLmNvbW1lcmNl
+LmdvdjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ1WOrkiJzjRxxU/2Ve1GlC1hygp
+pynmC96smpWngmFzca0TMk72zeyy3Gja1JQblW9gbejfaQ8qN5WeeVloWWwJO0Adjm87tB/L2MmQ
+yltfN3iYXobuWH+OePCvy7qns7tvhQbBZWMp4LiH/Vissgo4cf22CNVv74TvFNOjVXbSx20HUc1W
+QsNu+Tx7IiX/8zC3P4vlD3MrXu0fGS6lxAexHVmFKmz+QH01mQFIkQ0WyGkBYqlR/y39bhc1z63p
+eIUfk0X94IzOhHjnEq22IKG4Or+IdpO/rCiXEjCBm7wa04WBwN7hqtwkQ6Pm7MLCuIFWhVQmInsM
+xwvZjyXQntsCAwEAAaOCAyQwggMgMB8GA1UdIwQYMBaAFKPIXmVU5TB4wQXqBwpqWcy5/t5aMB0G
+A1UdDgQWBBSaXU7aRSYD6rrQMxsE+OLB2aj5JjAoBgNVHREEITAfgh1zdW5mbG93ZXJwcmQuZWFz
+LmNvbW1lcmNlLmdvdjAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUF
+BwMCMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly9jZHAudGhhd3RlLmNvbS9UaGF3dGVSU0FDQTIw
+MTguY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAEBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3
+LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQICMG8GCCsGAQUFBwEBBGMwYTAkBggrBgEFBQcwAYYY
+aHR0cDovL3N0YXR1cy50aGF3dGUuY29tMDkGCCsGAQUFBzAChi1odHRwOi8vY2FjZXJ0cy50aGF3
+dGUuY29tL1RoYXd0ZVJTQUNBMjAxOC5jcnQwCQYDVR0TBAIwADCCAX0GCisGAQQB1nkCBAIEggFt
+BIIBaQFnAHYA7ku9t3XOYLrhQmkfq+GeZqMPfl+wctiDAMR7iXqo/csAAAFruBzRjQAABAMARzBF
+AiAzkHct3I9Pt67D50KW7yDjiqHCInbZ3MiaXg1SNbOtKgIhANiHFOlxM3Cr74moB5QalwylsmrM
+ZX3OG5Jl7rvmSLsqAHUAh3W/51l8+IxDmV+9827/Vo1HVjb/SrVgwbTq/16ggw8AAAFruBzR1AAA
+BAMARjBEAiAkwYr5pnPN7udE6an8jSm3YzDzhmp6s31zrUZ8CHseiQIgQ/xOrNNGGoalO78FiGJw
+3jpCc7fQ3p5XcatM624CyK8AdgBElGUusO7Or8RAB9io/ijA2uaCvtjLMbU/0zOWtbaBqAAAAWu4
+HNDeAAAEAwBHMEUCIQD7HvWPx0rSJqBC7zHjww6h8kwci63u9h1Gjm5hg731oQIgcboSIVvVkicu
+qbeFTxmynqNt5VtaO6kkBT+XCW2kE+cwDQYJKoZIhvcNAQELBQADggEBALGzA4vR9m9/oZbfKo2S
+5Tucs/0yGlRXGBh75E+07AP6+m6lZDLzecXqN58ws7xAKFwsFn7SNGrXNA+VPmXfTWieiq/v1E6M
+v1z/tlU+WwgBWQFiGHWhrB0AYdqoahTEIUDmPWdhTdlMuOmaCaQRo9/nDevz3Ormi9SOOvTVQj1/
+f66yxpRe3/Cc0eeRM/xioDRNIZ9U62SgkLG0j9QWAzKjZTFNsJMJdz9oaPemc/BIkD9tfuMUT20N
+jQLu3ZpKFSuH3xutfPW4YmSSiiZePbOTeBHS5+/qnfGuR3a2ToVwP8JBvAmn9PnbUz+Ik7p8PbL9
+9bWAMtu/cfg7YD/HpqY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</md:KeyDescriptor>
+<md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://sunflowerprd.eas.commerce.gov/saml2/sp/ars/soap" index="0" isDefault="true"/>
+<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sunflowerprd.eas.commerce.gov/saml2/sp/acs/post" index="0" isDefault="true"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://sunflowerprd.eas.commerce.gov/saml2/sp/acs/artifact" index="1"/>
+</md:SPSSODescriptor>
+<md:Organization>
+<md:OrganizationName xml:lang="en">DOC</md:OrganizationName>
+<md:OrganizationDisplayName xml:lang="en">DOC</md:OrganizationDisplayName>
+<md:OrganizationURL xml:lang="en">http://www.osec.doc.gov/ofm/oap/ppmtd/default.htm</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="support">
+<md:Company>DOC</md:Company>
+<md:GivenName>Sunflower</md:GivenName>
+<md:SurName>Helpdesk</md:SurName>
+<md:EmailAddress>SunflowerHelpDesk@doc.gov</md:EmailAddress>
+<md:TelephoneNumber>2024825010</md:TelephoneNumber>
+</md:ContactPerson>
+</md:EntityDescriptor>

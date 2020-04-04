@@ -1,0 +1,7 @@
+Name,PhoneNumber,EmailAddress,Address
+Sample Name,1234567891,sample_name@example.com,"['Street Line1', 'City Name', 'AE', '12345']"
+Sample Name1,1234567891,sample_name1@example.com,"['Current Address', 'Los Angeles', 'CA', '56666']"
+Sample Name2,1234567891,sample_name2@example.com,"['Current Address', 'Los Angeles', 'CA', '56666']"
+Sample Name3,1234567891,sample_name3@example.com,"['Current Address', 'Los Angeles', 'CA', '56666']"
+Sample Name4,1234567891,sample_name4@example.com,"['Current Address', 'Los Angeles', 'CA', '56666']"
+Sample Name5,1234567891,sample_name5@example.com,"['Current Address', 'Los Angeles', 'CA', '56666']"

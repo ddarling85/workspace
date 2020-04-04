@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://noaastage.service-now.com">
+        <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+                <KeyDescriptor use="signing" >
+                        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                                <ds:X509Data>
+                                        <ds:X509Certificate>MIIEqTCCA5GgAwIBAgICTMswDQYJKoZIhvcNAQELBQAwWjELMAkGA1UEBhMCVVMxGDAWBgNVBAoM
+D1UuUy4gR292ZXJubWVudDEMMAoGA1UECwwDRG9EMQwwCgYDVQQLDANQS0kxFTATBgNVBAMMDERP
+RCBTVyBDQS01MzAeFw0xODExMDExODQ1NTlaFw0yMTExMDExODQ1NTlaMHYxCzAJBgNVBAYTAlVT
+MRgwFgYDVQQKDA9VLlMuIEdvdmVybm1lbnQxDDAKBgNVBAsMA0RvRDEMMAoGA1UECwwDUEtJMQ0w
+CwYDVQQLDARESVNBMSIwIAYDVQQDDBluc2Rlc2tkZXYuc2VydmljZS1ub3cuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgqWx7x4G66+VxvoVfplmDcKY8x8Uku6zAV0i9MhXgmrf
+f7/PPBlBrwUsxyyxhTeoEiR3q1es/vLHnoCtq6qrzy31TFiH3yT9CY4Fm4zVAl7fkCpmJZo7O+H3
+R69fEQbSRd0l60k5SVC10vrGie4vyDco3Yoi2UCpbAzFCIRassk2C6Wv9EFq2bY7hjU0UCBjuEcK
+f5KBCa4kAgFSAFxK3zO0TmPrKW+qtMbgp87gPQyHySbP1heWMdlAAP6/kgK5QZv89p2s0F50jCOc
+VTt4ju72ifxv9LBr12tcvj5vG2jlVlmMEqho+wcwT55s5A/xjSIDyjxYVL+ot+w1LJHbiwIDAQAB
+o4IBWzCCAVcwHwYDVR0jBBgwFoAUUcSLM5mUwH67Nh3j4joFvTJ0nVMwHQYDVR0OBBYEFEB4ixB8
+TQOSam0sKXD1dqQ6icJgMGUGCCsGAQUFBwEBBFkwVzAzBggrBgEFBQcwAoYnaHR0cDovL2NybC5k
+aXNhLm1pbC9zaWduL0RPRFNXQ0FfNTMuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5kaXNh
+Lm1pbDAOBgNVHQ8BAf8EBAMCBaAwNwYDVR0fBDAwLjAsoCqgKIYmaHR0cDovL2NybC5kaXNhLm1p
+bC9jcmwvRE9EU1dDQV81My5jcmwwJAYDVR0RBB0wG4IZbnNkZXNrZGV2LnNlcnZpY2Utbm93LmNv
+bTAWBgNVHSAEDzANMAsGCWCGSAFlAgELJzAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIG
+CCsGAQUFCAICMA0GCSqGSIb3DQEBCwUAA4IBAQAYWkhtR09+1UkZW3g2kcLG5GdscO5OY/5Z/a2t
+79Z58JWo9kTlaCX8K9swrMPsiOXsEp1Z6OCUfAU+aTI/cekEHg7tzWR+8pmm6N253wCSOBQ/NPhH
+HazG6m6meDGCmyRuZN43jPtkHAexG8rjr182LpT/m1phUtf/rwLjNXD1M+2Qb4Cs8CmXZNu+C8Bw
+B9TUPYgy9Xr/btbernjesPlFFMPWP4ZcUvvLaW5UCNt/+FnFK0mHQOEd6TPEhd2nvjcYnoz7+rtP
+9pfgHbUBTe+PCh137Qf4QExwXzkVl0Ym/5Kzf1t0rZeHSqJwiNpukjR85JFiVJP/TvchuJvp8OYj</ds:X509Certificate>
+                                </ds:X509Data>
+                        </ds:KeyInfo>
+                </KeyDescriptor>
+                <KeyDescriptor use="encryption" >
+                        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                                <ds:X509Data>
+                                        <ds:X509Certificate>MIIEqTCCA5GgAwIBAgICTMswDQYJKoZIhvcNAQELBQAwWjELMAkGA1UEBhMCVVMxGDAWBgNVBAoM
+D1UuUy4gR292ZXJubWVudDEMMAoGA1UECwwDRG9EMQwwCgYDVQQLDANQS0kxFTATBgNVBAMMDERP
+RCBTVyBDQS01MzAeFw0xODExMDExODQ1NTlaFw0yMTExMDExODQ1NTlaMHYxCzAJBgNVBAYTAlVT
+MRgwFgYDVQQKDA9VLlMuIEdvdmVybm1lbnQxDDAKBgNVBAsMA0RvRDEMMAoGA1UECwwDUEtJMQ0w
+CwYDVQQLDARESVNBMSIwIAYDVQQDDBluc2Rlc2tkZXYuc2VydmljZS1ub3cuY29tMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgqWx7x4G66+VxvoVfplmDcKY8x8Uku6zAV0i9MhXgmrf
+f7/PPBlBrwUsxyyxhTeoEiR3q1es/vLHnoCtq6qrzy31TFiH3yT9CY4Fm4zVAl7fkCpmJZo7O+H3
+R69fEQbSRd0l60k5SVC10vrGie4vyDco3Yoi2UCpbAzFCIRassk2C6Wv9EFq2bY7hjU0UCBjuEcK
+f5KBCa4kAgFSAFxK3zO0TmPrKW+qtMbgp87gPQyHySbP1heWMdlAAP6/kgK5QZv89p2s0F50jCOc
+VTt4ju72ifxv9LBr12tcvj5vG2jlVlmMEqho+wcwT55s5A/xjSIDyjxYVL+ot+w1LJHbiwIDAQAB
+o4IBWzCCAVcwHwYDVR0jBBgwFoAUUcSLM5mUwH67Nh3j4joFvTJ0nVMwHQYDVR0OBBYEFEB4ixB8
+TQOSam0sKXD1dqQ6icJgMGUGCCsGAQUFBwEBBFkwVzAzBggrBgEFBQcwAoYnaHR0cDovL2NybC5k
+aXNhLm1pbC9zaWduL0RPRFNXQ0FfNTMuY2VyMCAGCCsGAQUFBzABhhRodHRwOi8vb2NzcC5kaXNh
+Lm1pbDAOBgNVHQ8BAf8EBAMCBaAwNwYDVR0fBDAwLjAsoCqgKIYmaHR0cDovL2NybC5kaXNhLm1p
+bC9jcmwvRE9EU1dDQV81My5jcmwwJAYDVR0RBB0wG4IZbnNkZXNrZGV2LnNlcnZpY2Utbm93LmNv
+bTAWBgNVHSAEDzANMAsGCWCGSAFlAgELJzAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIG
+CCsGAQUFCAICMA0GCSqGSIb3DQEBCwUAA4IBAQAYWkhtR09+1UkZW3g2kcLG5GdscO5OY/5Z/a2t
+79Z58JWo9kTlaCX8K9swrMPsiOXsEp1Z6OCUfAU+aTI/cekEHg7tzWR+8pmm6N253wCSOBQ/NPhH
+HazG6m6meDGCmyRuZN43jPtkHAexG8rjr182LpT/m1phUtf/rwLjNXD1M+2Qb4Cs8CmXZNu+C8Bw
+B9TUPYgy9Xr/btbernjesPlFFMPWP4ZcUvvLaW5UCNt/+FnFK0mHQOEd6TPEhd2nvjcYnoz7+rtP
+9pfgHbUBTe+PCh137Qf4QExwXzkVl0Ym/5Kzf1t0rZeHSqJwiNpukjR85JFiVJP/TvchuJvp8OYj</ds:X509Certificate>
+                                </ds:X509Data>
+                        </ds:KeyInfo>
+                </KeyDescriptor>
+                <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://noaastage.service-now.com/navpage.do"/>
+                <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+                <AssertionConsumerService isDefault="true" index="0" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://noaastage.service-now.com/navpage.do" />
+                <AssertionConsumerService isDefault="false" index="1" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://noaastage.service-now.com/consumer.do" />
+        </SPSSODescriptor>
+        <ContactPerson contactType="technical">
+                <Company>HDQ</Company>
+                <GivenName>Brent</GivenName>
+                <SurName>Macaloney</SurName>
+                <EmailAddress>brent.macaloney@noaa.gov</EmailAddress>
+                <TelephoneNumber>3016285758</TelephoneNumber>
+        </ContactPerson>
+</EntityDescriptor>
